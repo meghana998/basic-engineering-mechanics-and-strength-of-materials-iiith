@@ -19,7 +19,7 @@
 			    margin: 69px;
 			    padding-inline-start: 31px;
 			    padding-block-start: 30px;
-			    word-spacing: 80px;
+			    word-spacing: 50px;
 			    letter-spacing: 2;
 			    margin-top: -76px;
 			    background: #cacaca;
@@ -66,6 +66,30 @@
   				background: #4CAF50;
   				cursor: pointer;
 				}
+			.slider1 {
+ 				-webkit-appearance: none;
+  				width: 14%;
+  				height: 8px;
+  				background: #516161;
+  				outline: none;
+  				opacity: 0.9;
+  				-webkit-transition: .2s;
+  				transition: opacity .2s;
+				}
+			.slider1::-webkit-slider-thumb {
+  				-webkit-appearance: none;
+  				appearance: none;
+  				width: 15px;
+  				height: 15px;
+  				background: #4CAF50;
+  				cursor: pointer;
+				}
+		    .slider1::-moz-range-thumb {
+  				width: 15px;
+  				height: 25px;
+  				background: #4CAF50;
+  				cursor: pointer;
+				}
     	</style>
 	</head>
 	<body>
@@ -77,9 +101,9 @@
 	    	<div class="class3 ">
 	    		<form name="f1">
 	    				<label>Sxx</label><input type="range" min="-50.0" max="50.0" value="0.0"id="myRange1" class="slider">
-	    	            <span id="demo1"></span>
+	    	           <span id="demo1"></span>
 
-	    				<label>Sxv</label><input type="range" min="-50.0" max="50.0" value="0.0"id="myRange2" class="slider">
+	    	           <label>Sxv</label><input type="range" min="-50.0" max="50.0" value="0.0"id="myRange2" class="slider">
 	    	            <span id="demo2"></span>
 
 	    				<labl>Szx</label><input type="range" min="-50.0" max="50.0" value="0.0"id="myRange3" class="slider">
@@ -115,27 +139,22 @@
 	    				<label>S'zv</label>
 	    				<label>S'zz</label>
 	    			</br>
-	    				<label>THETAx</label>
-	    				<label>THETAy</label>
-	    				<label>THETAz</label>
+	    				<label>THETAx</label><span id="demo10"></span>
+	    				<label>THETAy</label><span id="demo11"></span>
+	    				<label>THETAz</label><span id="demo12"></span>
 	    				<label>VALUE1:</label>
 	    				<label>VALUE2:</label>
 	    				<label>VALUE3:</label>
 	    			</br></br></br></br>
-	    		</form>
-	        <div>
-	        	<table>
-	        		<tr>
-	        			<td>THETA x</td>
-	        			<td><pre>    			       </pre></td>
-	        			<td>THETA y</td>
-	        			<td><pre>     			      </pre></td>
-	        			<td>THETA z</td>
-	        			<td><pre>    			       </pre></td>
-	        		</tr>
-	        	</table>
-	    </div>
-
+	    		<div>
+	        			<td>THETAx</td>
+	        			 <input type="range" min="0" max="360" step="1.0" id="myRange10" value="0"class="slider1"/>
+	        			<td>THETAy</td>
+	        			 <input type="range" min="0" max="360" step="1.0" id="myRange11" value="0"class="slider1"/>
+	        			<td>THETAz</td>
+	        			  <input type="range" min="0" max="360" step="1.0" id="myRange12" value="0"class="slider1"/>
+	        	</div>
+	         </form>
 	    <script>
 			var slider1 = document.getElementById("myRange1");
 			var output1 = document.getElementById("demo1");
@@ -190,6 +209,24 @@
 			output9.innerHTML = slider9.value;
 			slider9.oninput = function() {
  				 output9.innerHTML = this.value;
+				}
+			var slider10 = document.getElementById("myRange10");
+			var output10 = document.getElementById("demo10");
+			output10.innerHTML = slider10.value;
+			slider10.oninput = function() {
+ 				 output10.innerHTML = this.value;
+				}
+			var slider11 = document.getElementById("myRange11");
+			var output11 = document.getElementById("demo11");
+			output11.innerHTML = slider11.value;
+			slider11.oninput = function() {
+ 				 output11.innerHTML = this.value;
+				}
+			var slider12 = document.getElementById("myRange12");
+			var output12 = document.getElementById("demo12");
+			output12.innerHTML = slider12.value;
+			slider12.oninput = function() {
+ 				 output12.innerHTML = this.value;
 				}
 		</script>
 	</body>
