@@ -3,7 +3,7 @@
 			output1.innerHTML = slider1.value;
 			slider1.oninput = function() {
  				 output1.innerHTML = this.value;
-				}
+ 				 }
 			var slider2 = document.getElementById("myRange2");
 			var output2 = document.getElementById("demo2");
 			output2.innerHTML = slider2.value;
@@ -57,6 +57,12 @@
 			output10.innerHTML = slider10.value;
 			slider10.oninput = function() {
  				 output10.innerHTML = this.value;
+ 				 var s1 = document.getElementById("myRange10");
+                 var d=s1.value;
+                 document.getElementById("div1").style.transform ="rotate3d(1,0,0,"+d.toString(2)+"deg)";
+                  document.getElementById("div2").style.transform ="rotateX("+d.toString(2)+"deg)";
+                 document.getElementById("wrapD3Cube3").style.transform ="rotateX("+d.toString(2)+"deg)";
+             
 				}
 			var slider11 = document.getElementById("myRange11");
 			var output11 = document.getElementById("demo11");

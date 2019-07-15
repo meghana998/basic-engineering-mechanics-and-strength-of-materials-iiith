@@ -1,3 +1,6 @@
+            rect {
+             transform-origin: 50% 50%; 
+             }
             .class1{
                 width: 1058px;
     			border: 32px solid #707370;
