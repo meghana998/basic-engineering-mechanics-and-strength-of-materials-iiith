@@ -1,78 +1,85 @@
 {
     "artciles": [
         {
-            "quiztitle":"Quiz for Cryptography",
+            "quiztitle":"Quiz for Principal Stresses",
             "containers":"5"
         },
         {
-            "q": "Which of the following are used to generate a message digest by the network security protocols?",
+            "q": "The shear stress is a function of:?",
             "option": [
-                "RSA and DES",
-                "SHA-1 and  DES",
-                "SHA-1 and MD5"
+                "Shear force and Cross section",
+                "Principle stresses and elevation",
+                "Strain & Compatibility",
+                "Axial prestress & tension"
             ],
-            "answer": "SHA-1 and MD5",
-            "description": "SHA 1 – Secure Hash Algorithm 1, or SHA 1 is a cryptographic hash function. It produces a 160 bit (20 byte) hash value (message digest).MD5 – Message Digest 5, or MD5 is a widely used cryptographic hash function that produces a 128 bit hash value (message digest). SHA 1 and MD5 are used to generate a message digest by the network security protocols "
+            "answer": "Shear force and Cross section",
+            "description": "The shear distribution in un cracked structural concrete members linear deformations are assumed to be developed due to shear distribution and the shear stress in a function of shear force and cross section of the members which is given by the equations τv =shear stress, V = shear force, S = first moment of inertia, I = moment of inertia, B = width of the beam section."
         },
         {
-            "q": "Which of these is correct ?",
+            "q": "The strength of concrete subjected to pure shear being nearly twice that in ?",
             "option": [
-                "MD5 is vulnerable to the Birthday attack.",
-                "3DES is a type of Public Key Encrytion Algorithm.",
-                "Both"
+                "Compression.",
+                "Tension",
+                "Bond",
+                "Anchorage"
             ],
-            "answer": "MD5 is vulnerable to the Birthday attack.",
-            "description": " 3DES is a type of private key encryption algorithm and MD5 is a cryptographic Hash function and is vulnerable to birthday attack. "
+            "answer": "Tension",
+            "description": "The effect of this shear stress is to induce principal tensile stresses on diagonal planes and in pure shear, the strength of the concrete is twice that of the strength in the tension local failures first appear in the form of diagonal tension cracks in legions of height shear stress "
         },
         {
-            "q": "Suppose that everyone in a group of N people wants to communicate secretly with the N–1 others using symmetric key cryptographic system. The communication between any two persons should not be decodable by the others in the group. The number of keys required in the system as a whole to satisfy the confidentiality requirement is ?",
+            "q": " The effect of maximum shear stress (τ v) produces?",
             "option": [
-                "2N",
-                "N(N-1)",
-                "N(N-1)/2"
+                "Principal tensile stresses",
+                "Principal compression stresses",
+                "Principal strain stresses",
+                 "Principal span stresses"
             ],
-            "answer": "N(N-1)/2",
-            "description": "In Symmetric Key Cryptography, access of key is with both the parties. It implies every person needs to communicate N-1 other users using different keys i.e 1+2+3...N-2+N-1 This is like number of edges needed in a complete graph with N vertices is N(N-1)/2. "
+            "answer": "Principal tensile stresses",
+            "description": "cracks are observed at the point of the development of maximum shear stresses diagonally. The effect of this maximum shear stress (τ v) also produces principle tensile stresses on diagonal plane, the calculation of principle tensile stress resulting from direct at critical sections with or without bending and shear combined shall be carried out it is also done at the material change in width of section and should be less than 0.126(fc)1/2."
         },
         {
-            "q": " Anarkali digitally signs a message and sends it to Salim. Verification of the signature by Salim requires ?",
+            "q": " The major principal stresses produced on diagonal plane is expressed as?",
             "option": [
-                "Anarkali public Key",
-                "Salim’s public key",
-                "Anarkali’s private key"
+                "fx + fy/2",
+                "fx + fy/2 – 1/2 ((fx – fy )2 +4τ v2 )1/2",
+                " fx + fy/2 + 1/2 ((fx – fy)2 +4τ v2 )1/2",
+                "fx – fy/2"
             ],
-            "answer": "Anarkali public Key",
-            "description": "Sender uses its private key to digitally sign a document. Receiver uses public key of sender to verify."
+            "answer": "fx + fy/2 – 1/2 ((fx – fy )2 +4τ v2 )1/2",
+            "description": "The major principal stress Fmax =fx + fy/2 + 1/2 ((fx – fy )2 +4τv2 )1/2 Minor principal stress Fmin = fx + fy/2 + 1/2 ((fx – fy )2 +4τ v2 )1/2 Fx, Fy are the direct stresses in horizontal & vertical directions respectively."
         },
         {
-            "q": "Consider the following two statements: i. A hash function (these are often used for computing digital signatures) is an injective function. A. encryption technique such as DES performs a permutation on the elements of its input alphabet. Which one of the following options is valid for the above two statements? ?",
+            "q": " If the direct stresses are compressive, then the magnitude of principal stresses in prestressed concrete member gets ?",
             "option": [
-                "Both are false",
-                "Statement (i) is true and the other is false",
-                "Statement (ii) is true and the other is false"
+                "Increased",
+                "Decreased",
+                "Constant",
+                "Zero"
             ],
-            "answer": "Statement (ii) is true and the other is false",
-            "description": "Injective Function: A function F(X) is said to be injective if it has one-to-one mapping. Statement 1: Hash function is an injective function Statement 2: DES Encryption technique performs a permutation on the elements of its input alphabet  1) Generally, a hash function H(X) is mapping from a larger set to a predefined output set For example, let H(X) = (X)%5 The above function H(X) is not injective because Let X1 = 10, X2 = 15 H(10) = H(15) = 0 As the output of H(X1) = H(X2) where X1!= X2 => H(X) is many-to-one function. Statement 1 is false.2) In DES encryption scheme, it performs P-Box permutation. Statement 1 is false, Statement 2 is true."
+            "answer": "Increased",
+            "description": "If the direct stresses are compressive, then the magnitude of principal stresses in prestressed concrete member acts reduced considerably and therefore under working loads, these principal stresses have to be compressive in nature in order to eliminate diagonal cracks in concrete"
         },
         {
-            "q": "The minimum positive integer p such that 3p modulo 17 = 1 is ?",
+            "q": "How many ways are there for improving the shear resistance of structural concrete members by prestressing techniques?",
             "option": [
-                "5",
-                "12",
-                "16"
+                "4",
+                "6",
+                "3",
+                 "2"
             ],
-            "answer": "16",
-            "description": "Either use Fermat's Little Theorem or put the value of p and get the answer"
+            "answer": "3",
+            "description": "In general three ways of improving the shear resistance of structural concrete members by prestressing techniques:Horizontal or axial prestressing by inclined or sloping cables and vertical or transverse prestressing"
         },
         {
-            "q": "Exponentiation is a heavily used operation in public key cryptography. Which of the following options is the tightest upper bound on the number of multiplications required to compute bn mod m,0≤b,n≤m ?",
+            "q": " A prestressed concrete beam span 10mm of rectangular section, 120mm wide & 300mm deep is axially prestressed on effective force of 180kn, uniformly distributed load of 5kn/m include the self weight of member. Find maximum shear stress at support?",
             "option": [
-                "O(logn)",
-                "O(√n)",
-                "O(n/logn)"
+                "20.5n/mm2",
+                "1.05n/mm2",
+                "15.08n/mm2",
+                "4.05n/mm2"
             ],
-            "answer": "O(logn)",
-            "description": "This Problem can be solved using Divide And Conquer Paradigm .Recurrence Relation for computing the time complexity of the divide and conquer algorithm is T(n) = T(n/2) + constant = (log2n) "
+            "answer": "1.05n/mm2",
+            "description": "A= (120×300) = 36×103 mm2, I = 27×107 mm4, Wd = 5kn/m  Shear force at support V = (5×10/2) =25kn  Maximum shear stress at support, τv = (3v/2bh) = (3/2)x(25×103 /120×300) = 1.05n/mm2. "
         },
         {
             "q": "The total number of keys required for a set of n individuals to be able to communicate with each other using secret key and public key crypto-systems, respectively are ?",
@@ -85,24 +92,26 @@
             "description": "If there are 2 individuals then total number of distinct keys for communication will be 1 Similarly for 3 individuals we will need 2 distinct keys. Like ways for n users we will need n-1 keys So, total number of keys will be 1+2+3+…n-1 = (n (n-1)/2) Now for a public key encryption scheme every individual will have two keys one public key and one private key. Therefore, for n individuals to communicate we will have 2* n keys Hence, the correct answer will be ((n(n – 1))/2) and 2n."
         },
         {
-            "q": "In a RSA cryptosystem, a participant A uses two prime numbers p=13 and q=11 to generate his public and private keys. If the public key of A is 37, then the private key of A is ?",
+            "q": "A prestressed concrete beam of span 10m of rectangular section, 120mm wide & 300mm deep a curved cable having an eccentricity of 100mm at the centre of span. Find the slope of cable of support ?",
             "option": [
-                "13",
-                "35",
-                "17"
+                "0.08 radians",
+                "0.01 radians",
+                "0.04 radians",
+                "0.12 radians"
             ],
-            "answer": "13",
-            "description": "Public Key = (n, e) Private Key = (n, d) n = pq = 143 z = (p-1)(q-1) = 120 Given e = 37 Using ed mod z = 1 Candidates for 1 mod z = 121 241 361 481 601 721 841 961 1081 1201 1321 1441 1561 1681 1801 1921 2041 2161 2281 2401 2521 2641 2761 2881 3001 3121 3241 3361 3481 3601 Smallest number which is a multiple of 37 is 481 and 481/37 = 13 So the private key is 13 ."
+            "answer": "0.04 radians",
+            "description": " I = 10mm, l=100mm Slope of cable at support = (4e/l) = (4×100/10×100) = 0.04 radians"
         },
         {
-            "q": "Pretty Good Privacy (PGP) is used in ?",
+            "q": " Which type of tensioning is generally uneconomical for vertical prestressing?",
             "option": [
-                "Browser security",
-                "FTP security",
-                "Email security"
+                "Post tensioning",
+                "Pre tensioning",
+                "Chemical tension",
+                "Thermal tension"
             ],
-            "answer": "Email security",
-            "description": "PGP is a an encryption phenomena that provide cryptographic privacy and authentication for data communication over e-mails. It generates a public key to encrypt a message at sender's end and private key to decrypt a message at receiver's end allowing us to send files and messages securely over internet. OpenPGP is an email encryption standard. It uses Digital Signatures to provide authentication and integrity checking basically to check if the message is actually sent by the person or entity claimed to be the sender."
+            "answer": "Post tensioning",
+            "description": "Vertical prestressing is not generally adopted because the length of the cables being short, the loss of prestress due to anchorage slip is excessively large post tensioning is generally uneconomical for vertical prestressing due to losses of prestress encountered"
         },
         {
             "q": "An attacker sits between the sender and receiver and captures the information and retransmits to the receiver after some time without altering the information. This attack is called as ?",
@@ -115,144 +124,155 @@
             "description": "An attacker sits between the sender and receiver and captures the information and re-transmits to the receiver after some time without altering the information. This attack is called as Denial of service attack."
         },
         {
-            "q": "An example of poly-alphabetic substitution is ?",
+            "q": "The normal stress is perpendicular to the area under considerations, while the shear stress acts over the area ?",
             "option": [
-                "P-box",
-                "S-box",
-                "Vigenere cipher"
+                "True",
+                "False"
+                
             ],
-            "answer": "Vigenere cipher",
-            "description": "Using more than one alphabet and switching between them systematically to encrypt data is called a polyalphabetic substitution cipher. The Vigenere cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers based on the letters of a keyword. It is a form of polyalphabetic substitution."
+            "answer": "True",
+            "description": "This is the convention used."
         },
         {
-            "q": "A message 'COMPUTERNETWORK' encrypted (ignore quotes) using columnar transposition cipher with a key 'LAYER'.The encrypted message is ?",
+            "q": "If a body is subjected to stresses in xy plane with stresses of 60N/mm² and 80N/mm² acting along x and y axes respectively. Also the shear stress acting is 20N/mm²Find the maximum amount of shear stress to which the body is subjected?",
+
             "option": [
-                "CTTOEWMROPNRUEK",
-                "MROUEKCTTPNROEW",
-                "OEWPNRCTTUEKMRO"
+                "22.4mm",
+                "25mm",
+                "26.3mm",
+                " 27.2mm"
             ],
-            "answer": "OEWPNRCTTUEKMRO",
-            "description": "According to columnar transposition cipher with key LAYER: 5 element in key so there will be 5 column in every row and write down the order in key alphabetically. L A Y E R 3 1 5 2 4 C O M P U T E R N E T W O R K Now encode it in column wise manner from column 1 to column 5 according to order defined by key. The Encrypted message will be OEWPNRCTTUEKMRO. For more information on columnar transposition cipher ."
+            "answer": "22.4mm",
+            "description": "τ(max)=√( [σ(x)-σ(y) ]²/2² + τ²)."
         },
         {
-            "q": "The standard for certificates used on internet is ?",
+            "q": " If a body is subjected to stresses in xy plane with stresses of 60N/mm² and 80N/mm² acting along x and y axes respectively. Also the shear stress acting is 10N/mm². Find the inclination of the plane in which shear stress is maximal?",
             "option": [
-                "X.25",
-                "X.301",
-                "X.509"
+                "45’",
+                "30’",
+                "60’",
+                "15’"
             ],
-            "answer": "X.509",
-            "description": "In cryptography, X.509 is a standard that defines the format of public key certificates. X.509 certificates are used in many Internet protocols, including TLS/SSL, which is the basis for HTTPS, the secure protocol for browsing the web. ."
+            "answer": "45’",
+            "description": "tan (2Ǿ)=2τ/[σ(x) – σ(y)]. ."
         },
         {
-            "q": "Which of the following encryption algorithms is based on the Fiestal struture ?",
+            "q": "If a body is subjected to stresses in xy plane with stresses of 60N/mm² and 80N/mm² acting along x and y axes respectively. Also the shear stress acting is 20N/mm². Find the maximum normal stress?",
             "option": [
-                "Advanced Encryption Standard",
-                "RSA public key cryptographic algorithm",
-                "Data Encryption Standard"
+                "90",
+                "92.4",
+                "94.2",
+                "96"
             ],
-            "answer": "Data Encryption Standard",
-            "description": "Feistel Cipher is not a specific scheme of block cipher, it is a design model from which many different block ciphers are derived. DES is just one example of a Feistel Cipher. A cryptographic system based on Feistel cipher structure uses the same algorithm for both encryption and decryption."
+            "answer": "92.4",
+            "description": " σ=[σ(x) +σ(y)]/2 + √( [σ(x)-σ(y) ]²/2² + τ²)."
         },
         {
-            "q": "Using public key cryptography, X adds a digital signature σ to a message M, encrypts (M,σ) and sends it to Y, where it is decrypted. Which one of the following sequence of keys is used for operations ?",
+            "q": "If a body is subjected to stresses in xy plane with stresses of 60N/mm² and 80N/mm² acting along x and y axes respectively. Also the shear stress acting is 20N/mm². Find the minimum normal stress?",
             "option": [
-                "Encryption : X’s private key followed by Y’s private key. Decryption : X’s public key followed by Y’s public key.",
-                "Encryption : X’s private key followed by Y’s public key; Decryption : X’s public key followed by Y’s private key",
-                "Encryption : X’s private key followed by Y’s public key; Decryption : Y’s private key followed by X’s public key."
-            ],
-            "answer": "Encryption : X’s private key followed by Y’s public key; Decryption : Y’s private key followed by X’s public key.",
-            "description": "Refer GATE CS 2013 Questions"
+                "45.4",
+                "47.6",
+                "48.2",
+                "50.6"
+                ],
+            "answer": "47.6",
+            "description": "σ=[σ(x) +σ(y)]/2 – √( [σ(x)-σ(y) ]²/2² + τ²)"
         },
         {
-            "q": "MD5 is a widely used hash function for producing hash value of ?",
+            "q": "If compressive yield stress and tensile yield stress are equivalent, then region of safety from maximum principal stress theory is of which shape?",
             "option": [
-                "64 bits",
-                "128 bits",
-                "512 bits"
+                " Rectangle",
+                "square",
+                "cricle",
+                "ellipse"
             ],
-            "answer": "128 bits",
-            "description": "MD5 hash function accepts sequence of bytes and returns 128 bit hash value, usually used to check data integrity but has security issue ."
+            "answer": "square",
+            "description": "The equation of four lines is given by σ1=± S(yt), σ2=±S(yc) Now given S(yt)=S(yc), hence the region of safety is of square shape."
         },
         {
-            "q": "If there are N people in the world and are using secret key encryption/decryption for privacy purpose, then number of secret keys required will be ?",
+            "q": "Maximum Principal Stress Theory is not good for brittle materials",
             "option": [
-                "N",
-                "N (N - 1) / 2",
-                "N (N + 1) / 2"
+                "True",
+                "False"
+                
             ],
-            "answer": "N (N - 1) / 2",
-            "description": "Refer Question from UGC NET CS 2016 July ."
+            "answer": "False",
+            "description": " Experimental investigations have shown that maximum principle stress theory gives good results for brittle materials. "
         },
         {
-            "q": "Using p = 3, q = 13, d = 7 and e = 3 in the RSA algorithm, what is the value of ciphertext for a plain text 5 ?",
+            "q": "The region of safety in maximum shear stress theory contains which of the given shape ?",
             "option": [
-                "8",
-                "16",
-                "26"
+                "Hexagon",
+                "Rectangle",
+                "Square",
+                "None of the mentioned"
             ],
-            "answer": "8",
-            "description": "C = Me mod n     ->n = p * q     ->= 3 * 13     ->= 39    ->C = 53 mod 39    ->= 8"
+            "answer": "Hexagon",
+            "description": "In maximum shear stress theory we have the following equations: σ1= ±S(yt) σ2= ±S (yt), σ1 – σ2 =±S (yt) assuming S(yt)=S(yc). "
         },
         {
-            "q": "Hashed message is signed by a sender using ?",
+            "q": "The total strain energy for a unit cube subjected to three principal stresses is given by?",
             "option": [
-                "his public key",
-                "his private key",
-                "receiver’s private key"
+                "U= [(σέ) ₁ + (σέ) ₂+ (σέ) ₃]/3",
+                "U= [(σ₁²+σ₂²+σ₃²)/2E] – (σ₁σ₂+σ₂σ₃+σ₃σ₁)2μ",
+                "U= [(σέ) ₁ + (σέ) ₂+ (σέ) ₃]/4",
+                "None of the mentioned"
             ],
-            "answer": "his private key",
-            "description": " After the generation of hashed message that needs to be transmitted over a network, it is signed or encrypted using the private key of the sender which also generates the digital signatures. The message is transmitted along with the digital signatures which ensures Authentication and Non-repudiation."
+            "answer": "U= [(σ₁²+σ₂²+σ₃²)/2E] – (σ₁σ₂+σ₂σ₃+σ₃σ₁)2μ",
+            "description": " U= [(σέ) ₁ + (σέ) ₂+ (σέ) ₃]/2 is the basic formula. After substituting values of έ₁, έ₂ and έ₃, we get the expression b. "
         },
         {
-            "q": "How many distinct stages are there in DES algorithm, which is parameterized by a 56-bit key ?",
+            "q": "Distortion energy theory is slightly liberal as compared to maximum shear stress theory.",
             "option": [
-                "17",
-                "18",
-                "19"
+                "true",
+                "False"
             ],
-            "answer": "19",
-            "description": "Refer UGC NET CS 2014 Dec"
+            "answer": "true",
+            "description": "The hexagon of maximum shear theory falls completely inside the ellipse of distortion energy theorem."
         },
         {
-            "q": "Which one of the following is true for asymmetric-key cryptography ?",
+            "q": "ow many types of modes of shear cracking are present in structural concrete beams ?",
             "option": [
-                "Private key is kept by the receiver and public key is announced to the public",
-                "Public key is kept by the receiver and private key is announced to the public.",
-                " Both private key and public key are announced to the public."
+                "4",
+                "2",
+                "5",
+                "8"
             ],
-            "answer": " Both private key and public key are announced to the public.",
-            "description": "Refer UGC NET CS 2014 Dec"
+            "answer": "2",
+            "description": " Research over the years have shown that there are two major modes of shear cracking in structural concrete beams, web shear cracks, flexure shear cracks and different modes of shear failure patterns are also considered like diagonal tension failure, shear compression failure, web compression failure"
         },
         {
-            "q": "A Trojan horse is ?",
+            "q": "The ultimate shear resistance of prestressed concrete with web shear cracking but without flexural crakes & mainly governed by?",
             "option": [
-                "A piece of code that can attach itself to other programs in the system and spread to other systems when programs are copied or transferred.",
-                "A program that spreads to other computer systems by exploiting security holes like weaknesses in facilities for creation of remote processes",
-                "A program that performs a legitimate function that is known to an operating system or its user and also has a hidden component that can be used for nefarious purposes like attacks on message security or impersonation."
+                "Limiting value",
+                "Constant value",
+                "Zero",
+                "Infinity"
             ],
-            "answer": "A program that performs a legitimate function that is known to an operating system or its user and also has a hidden component that can be used for nefarious purposes like attacks on message security or impersonation.",
-            "description": "Refer UGC NET CS 2014 Dec"
+            "answer": "Limiting value",
+            "description": "The ultimate shear resistance of prestressed concrete sections with web shear cracking but without flexural cracks, is mainly governed by the limiting value of the principal tensile stress developed in concrete, the failure is assumed to take place when the principal tension exceeds the tensile strength of concrete."
         },
         {
-            "q": "In cryptography, the following uses transposition ciphers and the keyword is LAYER. Encrypt the following message. (Spaces are omitted during encryption) ->>>  WELCOME TO NETWORK SECURITY ! ?",
+            "q": "The flexure shear cracking load in a prestressed member is given by?",
             "option": [
-                "WMEKREETSILTWETCOOCYONRU!",
-                "EETSICOOCYWMEKRONRU!LTWET",
-                " LTWETONRU!WMEKRCOOCYEETSI"
+                "ACI",
+                "Indian",
+                "British",
+                "Canada"
             ],
-            "answer": "EETSICOOCYWMEKRONRU!LTWET",
-            "description": "Refer ISRO CS 2018"
+            "answer": "ACI",
+            "description":"The American code (ACI: 318-1989) recommendations for the flexure shear cracking load in a prestressed member are based on experimental observations that flexure shear cracking initiates at the flexural cracking load plus an additional shear which is a flexural cracking load plus an additional shear which is a function of the strength and density of concrete & the dimensions of the section."
         },
         {
-            "q": "Avalanche effect in cryptography ?",
+            "q": "What is provided in order to protect a member from collapsing suddenly after the development of shear cracks?",
             "option": [
-                "Is desirable property of cryptographic algorithm",
-                "Is undesirable property of cryptographic algorithm",
-                " None of the above"
+                "Edge reinforcement",
+                "Principal reinforcement",
+                "Span reinforcement",
+                "Shear reinforcement"
             ],
-            "answer": "Is desirable property of cryptographic algorithm",
-            "description": "Refer ISRO CS 2018"
+            "answer": "Shear reinforcement",
+            "description": "In order to protect a member from collapsing suddenly after the development of shear crack, a minimum shear reinforcement is provided (Asv ) is provided in the form of stirrups which is obtained by satisfying the following condition: Asv/bsv = 0.4/0.87fy In member without shear reinforcement, the inclined shear cracks extend to the compression face resulting in sudden explosive failure this is sometimes referred to as the diagonal tensile modes of failure"
         }
     ]
 }
