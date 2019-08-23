@@ -1,4 +1,4 @@
-var slider9 = document.getElementById("myRange9");
+            var slider9 = document.getElementById("myRange9");
 			var output9 = document.getElementById("demo9");
 			output9.innerHTML = slider9.value;
 			var out9 = document.getElementById("d9");
